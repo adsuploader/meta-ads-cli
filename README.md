@@ -1,21 +1,21 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Ads Uploader" width="96" height="96">
+  <img src="assets/cover.png" alt="Ads Uploader — Meta Ads CLI" width="100%">
 </p>
 
-<h1 align="center">Ads Uploader CLI</h1>
+<h1 align="center">Ads Uploader — Meta Ads CLI</h1>
 
-<p align="center">Create and manage Meta (Facebook &amp; Instagram) ads from the command line — same pipeline as the web app.</p>
+<p align="center">The <strong>Meta Ads CLI</strong> — create and manage Meta (Facebook &amp; Instagram) ads from your terminal or an AI agent, same pipeline as the web app.</p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@adsuploader/cli"><img alt="npm" src="https://img.shields.io/npm/v/@adsuploader/cli?color=1a3a5c"></a>
   <a href="https://adsuploader.com"><img alt="Website" src="https://img.shields.io/badge/website-adsuploader.com-1a3a5c"></a>
   <img alt="Meta Ads" src="https://img.shields.io/badge/Meta-Facebook_%26_Instagram-1a3a5c">
-  <a href="https://github.com/adsuploader/cli/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/adsuploader/cli?style=flat&color=1a3a5c"></a>
+  <a href="https://github.com/adsuploader/meta-ads-cli/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/adsuploader/meta-ads-cli?style=flat&color=1a3a5c"></a>
 </p>
 
 ---
 
-Ads Uploader turns an existing ad into a reusable template and builds brand-new ads on top of it — new media, copy, CTA, and targeting — in bulk, and paused by default. The `ads` CLI drives that pipeline from your terminal or from an AI agent. Prefer a fully hosted, agent-native experience? See the [Ads Uploader MCP server](https://github.com/adsuploader/mcp).
+Ads Uploader turns an existing ad into a reusable template and builds brand-new ads on top of it — new media, copy, CTA, and targeting — in bulk, and paused by default. The `ads` CLI drives that pipeline from your terminal or from an AI agent. Prefer a fully hosted, agent-native experience? See the [Meta Ads MCP server](https://github.com/adsuploader/meta-ads-mcp).
 
 > **Safe by default.** `create:preview` resolves posts and checks Meta permissions without creating anything, and created ads are **paused** unless you explicitly say otherwise. Nothing spends money until you unpause it in Meta.
 
