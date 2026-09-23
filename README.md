@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@adsuploader/cli"><img alt="npm" src="https://img.shields.io/npm/v/@adsuploader/cli?color=6C5CE7"></a>
-  <a href="https://adsuploader.com"><img alt="Website" src="https://img.shields.io/badge/website-adsuploader.com-1a3a5c"></a>
+  <a href="https://adsuploader.com/meta-ads-cli"><img alt="Website" src="https://img.shields.io/badge/website-adsuploader.com-1a3a5c"></a>
   <img alt="Meta Ads" src="https://img.shields.io/badge/Meta-Facebook_%26_Instagram-1a3a5c">
   <a href="https://github.com/adsuploader/meta-ads-cli/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/adsuploader/meta-ads-cli?style=flat&color=1a3a5c"></a>
 </p>
@@ -96,7 +96,7 @@ The build hydrates in the Ads Uploader web uploader — an open tab picks it up 
 ## Learn more
 
 - **Full CLI reference:** [adsuploader.com/docs/ad-configuration/cli](https://adsuploader.com/docs/ad-configuration/cli)
-- **Website:** [adsuploader.com](https://adsuploader.com) · **Docs:** [adsuploader.com/docs](https://adsuploader.com/docs)
+- **Website:** [adsuploader.com/meta-ads-cli](https://adsuploader.com/meta-ads-cli) · **Docs:** [adsuploader.com/docs](https://adsuploader.com/docs)
 - **Security:** [SECURITY.md](./SECURITY.md) · **Privacy:** [PRIVACY.md](./PRIVACY.md)
 
 ## Support
