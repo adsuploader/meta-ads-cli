@@ -17,7 +17,7 @@
 
 Ads Uploader turns an existing ad into a reusable template and builds brand-new ads on top of it — new media, copy, CTA, and targeting — in bulk. The `ads` CLI drives that pipeline from your terminal or from an AI agent. Prefer a fully hosted, agent-native experience? See the [Meta Ads MCP server](https://github.com/adsuploader/meta-ads-mcp).
 
-> **Safe by default.** `ads create:preview` resolves posts and checks Meta permissions without creating anything, and new ads are **paused** unless you say otherwise. Nothing spends until you unpause it in Meta.
+> **Preview first.** `ads create:preview` resolves posts and checks Meta permissions without creating anything.
 
 ## Why Ads Uploader
 
@@ -28,7 +28,7 @@ Founded on a decade of hands-on Meta advertising, Ads Uploader gives you the **d
 - **Partnership / branded content ads** — uploaded-media partnerships (Facebook + Instagram) and imported Instagram creator posts.
 - **Duplicate preserving social proof** — clone by post so likes, comments, and shares carry into new campaigns.
 - **Creative depth** — carousel, flexible, Multi-Media, Dynamic Optimization, creative enhancements, Advantage+ targeting.
-- **Human-in-the-loop by design** — validate-only previews, paused-by-default creation, and saved builds you finish in the web app.
+- **Human-in-the-loop by design** — validate-only previews and saved builds you finish in the web app.
 
 Built by a team that runs Meta ads at scale, and trusted by performance marketers and agencies managing serious Meta budgets.
 
@@ -49,7 +49,7 @@ ads account act_123456           # set the default account
 ads upload hero.jpg https://cdn.example.com/video.mp4   # local files and public URLs
 ads upload:drive "https://drive.google.com/drive/folders/..."   # a whole Drive folder
 ads create:preview spec.json     # dry run — see exactly what would be created
-ads create spec.json             # create the ads (paused by default)
+ads create spec.json             # create the ads
 ```
 
 A spec is a small JSON file describing what to build — the media, the copy, the CTA, targeting, and which existing ad to template from. See the [full spec reference](https://adsuploader.com/docs/ad-configuration/cli).
